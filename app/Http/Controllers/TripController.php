@@ -21,7 +21,7 @@ class TripController extends Controller
     }
 
     public function show(Request $request, Trip $trips){
-        // is the trip is asociated with the auth user?
+        
         // if ($trip->user->id === $request->user()->id){
         //     return $trip;
         // }
@@ -30,6 +30,8 @@ class TripController extends Controller
         //         return $trip;
         //     }
         // }
+
+        // is the trip is asociated with the auth user? 
 
         $user = $request->user();
 
