@@ -21,7 +21,6 @@ class TripController extends Controller
     }
 
     public function show(Request $request, Trip $trips){
-        
         // if ($trip->user->id === $request->user()->id){
         //     return $trip;
         // }
